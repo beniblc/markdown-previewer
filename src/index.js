@@ -6,7 +6,7 @@ class App extends Component {
 
   render(props) {
     return (
-      <div>
+      <div id="previewer">
         <h1>Markdown Previewer</h1>
         <InputText /> 
       </div>

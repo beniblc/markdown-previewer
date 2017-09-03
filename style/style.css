@@ -1,12 +1,25 @@
 .input-area {
-    width: 620px;
-}
-
-.box1, .box2 {
-    width: 300px;
-    min-height: 400px;
+    width: 1000px;
 }
 
 .box1 {
+    position: relative;
+
     margin-right: 10px;
+    left: 0px;
+    width: 40%;
+    min-height: 600px;
+    display: inline-block;
+}
+
+.outputText {
+    position: relative;
+    right: 0px;
+    width: 40%;
+    display: inline-block; 
+}
+
+.previewer {
+    position: relative;
+    width: 80%;
 }
