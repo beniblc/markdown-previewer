@@ -4,7 +4,7 @@ import InputText from './components/input-text';
 
 class App extends Component {
 
-  render(props) {
+  render() {
     return (
       <div id="previewer">
         <h1>Markdown Previewer</h1>
